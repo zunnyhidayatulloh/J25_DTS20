@@ -1,0 +1,69 @@
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 670px) {
+    body {
+        padding: 0px 0px;
+    }
+
+    /* HEADER */
+    .menu-block {
+        background-color: rgba(0, 170, 0, 0.9);
+        height: 40px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+    }
+
+    .main-cover-text {
+        font-size: 30px;
+    }
+
+    .sub-cover-text {
+        font-size: 18px;
+        letter-spacing: 6px;
+    }
+
+    /* MAIN */
+    /* Top */
+    .main-top {
+        padding: 0 10px;
+    }
+
+    /* Card */
+    .main-background {
+        height: 300vh;
+    }
+
+    .main-row-1 {
+        text-align: center;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+    }
+
+    .image-row-1 {
+        margin
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+    }
+
+    .image-row-1 img {
+        margin: 0 auto;
+    }
+
+    .cards {
+        margin: 0 auto;
+        padding: 0 35px;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5 {
+
+        width: 100%;
+        margin-top: 25px;
+    }
+}
