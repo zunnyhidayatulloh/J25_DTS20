@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <div class="menu-block">
@@ -39,32 +40,51 @@
     <main>
         <div class="main-top">
             <div class="row-wrapper">
-                <h2>Informasi Kota Asal Kelompok J25</h2>
-                <div class="row-top">
-                    <div class="main-row-1">
-                        <h3>Balikpapan...</h3>
-                        <p>Balikpapan merupakan kota yang terletak di Kalimantan Timur, yang kotanya terletak di pinggir laut</p>
+                <h2>Informasi Seputar Covid-19</h2>
+                <div class="column-top">
+                    <div class="main-column-1">
+                        <h3>nfografis Pencegahan Covid-19</h3>
+                        <p>Berikut adalah beberapa infografis mengenai pencegahan covid-19</p>
+                        <div class="image-column-1">
+                        <img class="mySlides w3-animate-fading" src="covid 19.png" style="width:100%">
+                            <img class="mySlides w3-animate-fading" src="cegah corona 2.jpg" style="width:100%">
+                            <img class="mySlides w3-animate-fading" src="cegah corona 3.jpg" style="width:100%">
+                            <img class="mySlides w3-animate-fading" src="cegah corona.png" style="width:100%">
                     </div>
-                    <div class="image-row-1">
-                        <img class="clearfix" src="https://github.com/dekyNino/j25/blob/master/balikpapan.jpg?raw=true" alt="">
                     </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
                 </div>
-                <div class="row-top">
-                    <div class="main-row-1 ">
-                        <h3>Balikpapan</h3>
-                        <p>Balikpapan merupakan kota yang terletak di Kalimantan Timur, yang kotanya terletak di pinggir laut</p>
+                <div class="column-top">
+                    <div class="main-column-2 ">
+                        <h3>Peta Persebaran Covid-19 di Indonesia</h3>
+                        <p>Berikut adalah peta persebaran covid-19 di Indonesia</p>
+                        <div class="image-column-2">
+                            <img class="mySlides w3-animate-fading" src="covid jatim 2.jpg" style="width:100%">
                     </div>
-                    <div class="main-row-2">
-                        row-2
                     </div>
-                </div>
+                        </div>
             </div>
         </div>
 
         <div class="main-background">
             <div class="container clearfix"></div>
                 <div class="cards">
-                    <h2>Personel</h2>
+                    <h2>Tim Kami</h2>
                     <div class="card-1">
                         <h3>Deky</h3>
                         <div class="card-image">

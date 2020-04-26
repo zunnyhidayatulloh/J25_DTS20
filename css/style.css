@@ -191,26 +191,32 @@ main {
     text-align: center;
 }
 
-.main-row-1 {
+.main-column-1 {
     float: left;
     width: 48%;
     margin-right: 4%;
     margin-bottom: 10px;
     position: relative;
 }
-
-.image-row-1 {
-    float: left;
-    width: 10%;
+.main-column-2 {
+    float: right;
+    width: 48%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.image-column-1 {
+    float: center;
+    width: 50%;
     position: relative;
     margin: 0 auto;
 }
 
-.image-row-2 {
-    background-image: url("https://github.com/dekyNino/j25/blob/master/balikpapan.jpg?raw=true");
-    background: cover;
-    width: 100%;
-    height: 100%;
+.image-column-2 {
+    float: center;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
 }
 
 /* Middle */
