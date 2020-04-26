@@ -207,14 +207,14 @@ main {
 }
 .image-column-1 {
     float: center;
-    width: 50%;
+    width: 25%;
     position: relative;
     margin: 0 auto;
 }
 
 .image-column-2 {
     float: center;
-    width: 50%;
+    width: 25%;
     position: relative;
     margin: 0 auto;
 }
