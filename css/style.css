@@ -8,7 +8,7 @@ body {
     padding: 0 30px;
 }
 
-span, p, h1, h2 {
+span, p, h1, h2, li {
     font-family: 'Ubuntu', sans-serif;
     font-weight: none;
 }
@@ -46,17 +46,57 @@ span, p, h1, h2 {
     left: 50%;
     transform: translate(-50%);
     border-bottom-radius: 20px;
-    padding: 0 65px;
+    padding: 0 0px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     z-index: 10;
 }
 
 .logo-left {
-    font-size: 24px;
-    color: black;
+    background-image: url("../images/25_150.png");
+    background-size: cover;
+    width: 150px;
+    height: 39px;
+    float: left;
+    height: 39px;
+    line-heigth: 39px;
+    margin-top: 13px;
+    margin-left: 35px;
+}
+
+/* .login-right {
+    float: right;
     height: 65px;
     line-height: 65px;
+    padding: 0px 25px;
+    background-color: rgba(77, 77, 77, 0.8);
+    color: white;
+    cursor: pointer;
+} */
+
+.icon-right {
+    display: none;
+}
+
+.menu-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.menus li {
+    display: inline-block;
+    padding: 0px 20px;
+    height: 65px;
+    line-height: 65px;
+    margin: 0px;
+    cursor: pointer;
+    color: black
+}
+
+.menus li:hover {
+    background-color: rgba(71, 93, 190, 0.8);
+    color: white;
+    transition: .5s;
 }
 
 .cover-text {
