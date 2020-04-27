@@ -235,25 +235,67 @@ main {
 .cards {
     transform: skewY(7deg);
     margin-top: 100px;
-}
-
-.cards h2 {
     text-align: center;
-    color: white;
-    margin-bottom: 35px;
 }
 
-.card-image {
-    background-color: blue;
-}
-
-.card-1, .card-2, .card-3, .card-4, .card-5 {
+.card-1 {
     background-color: rgba(255, 255, 255, 0.7);
     float: left;
     width: 18%;
     height: 50vh;
     display: inline-block;
     margin: 0 1%;
+}
+
+.cards h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.cards h3 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.medsos {
+    margin-top: 2px;
+}
+
+.medsos .fa {
+    font-size: 28px;
+}
+
+/* @keyframes example {
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+} */
+
+.card-image .fa {
+    font-size: 200px;
+    /* background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+
+.fa-facebook {
+    color: rgb(15, 24, 153);
+}
+
+.fa-twitter {
+    color: rgb(2, 156, 177);
+}
+
+.fa-instagram {
+    color: rgb(202, 58, 183);
+}
+
+.fa-youtube {
+    color: rgb(201, 0, 0);
 }
 
 /* Main table
