@@ -205,9 +205,10 @@ main {
     margin-bottom: 10px;
     position: relative;
 }
+
 .image-column-1 {
     float: center;
-    width: 100%;
+    width: 50%;
     position: relative;
     margin: 0 auto;
 }
