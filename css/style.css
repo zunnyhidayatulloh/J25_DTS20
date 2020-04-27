@@ -193,7 +193,7 @@ main {
 
 .main-column-1 {
     float: left;
-    width: 48%;
+    width: 100%;
     margin-right: 4%;
     margin-bottom: 10px;
     position: relative;
@@ -207,7 +207,7 @@ main {
 }
 .image-column-1 {
     float: center;
-    width: 25%;
+    width: 50%;
     position: relative;
     margin: 0 auto;
 }
