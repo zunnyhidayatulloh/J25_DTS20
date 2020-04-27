@@ -121,6 +121,6 @@
     }
     
     input, textarea {
-        width : 350px;
+        width : 100%;
     }
 }
