@@ -123,4 +123,8 @@
     input, textarea {
         width : 300px;
     }
+    
+    .image-column-1 {
+        width: 80%
+    }
 }
