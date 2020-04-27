@@ -197,6 +197,7 @@ main {
     margin-right: 4%;
     margin-bottom: 10px;
     position: relative;
+    text-align: center;
 }
 .main-column-2 {
 /*     float: right; */
