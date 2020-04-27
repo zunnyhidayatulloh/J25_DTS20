@@ -345,7 +345,7 @@ footer {
 }
 
 .footer-text {
-    top: 1%;
+    margin-top: 15px;
     left: 50%;
     translate: transform(-50%, -50%);
 }
