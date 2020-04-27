@@ -328,9 +328,19 @@ input, textarea {
     border : 1px solid #dee7ec;
 }
   
-.contact-submit {
+/* .contact-submit {
     background-color : #dee7ec;
     color : #889eab;
+} */
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0, .2);
+}
+
+.contact-submit {
+    background-color: white;
+    color: #777;
 }
 
 /* FOOTER */
