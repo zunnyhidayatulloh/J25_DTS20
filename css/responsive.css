@@ -123,4 +123,9 @@
     input, textarea {
         width : 300px;
     }
+    
+    .image-column-1 {
+        float: center;
+        width: 80%;
+    }
 }
