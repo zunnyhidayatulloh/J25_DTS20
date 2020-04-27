@@ -192,7 +192,7 @@ main {
 }
 
 .main-column-1 {
-    float: left;
+/*     float: left; */
     width: 100%;
     margin-right: 4%;
     margin-bottom: 10px;
